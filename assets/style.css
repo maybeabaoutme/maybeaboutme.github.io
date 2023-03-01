@@ -34,15 +34,14 @@ header nav a, header nav span {
 	font-family: 'Space Mono', monospace;
 }
 
-blockquote{
+p{
 	width: 100%;
 	font-family: 'Roboto mono';
 }
 main{
 	max-width: 660px;
 }
+
 .v video{
 	border-radius: 5px;
-	max-width: 640px;
-	max-height: 315px;
 }

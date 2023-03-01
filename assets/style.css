@@ -8,11 +8,11 @@ body{
 }
 
 .allwidth{
-	margin-top: 20px;
+	margin-top: 2%;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
-	padding: 5px 5px;
+	/* padding: 5px 5px; */
 	background-color: transparent;
 }
 
@@ -35,12 +35,14 @@ header nav a, header nav span {
 }
 
 blockquote{
+	width: 100%;
 	font-family: 'Roboto mono';
 }
 main{
 	max-width: 660px;
 }
-
-@media screen {
-	
+.v video{
+	border-radius: 5px;
+	max-width: 640px;
+	max-height: 315px;
 }
